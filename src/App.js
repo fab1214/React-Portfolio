@@ -14,10 +14,10 @@ function App() {
         name: "About"
       },
       {
-        name: "Portfolio",
+        name: "Contact",
       },
       {
-        name: "Contact",
+        name: "Portfolio",
       },
       {
         name: "Resume",
