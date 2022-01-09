@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav:hover {
+  cursor: pointer;
+}
+
+
+.navActive {
+  color: blue;
+}
