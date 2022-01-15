@@ -1,4 +1,5 @@
 import React, {useEffect} from "react";
+import { Link } from 'react-router-dom';
 
 const Nav = (props) => {
   const {
@@ -17,7 +18,7 @@ const Nav = (props) => {
       <div className="container">
         <div className="row">
           <h2>
-            <a href="/">Fabricio Bustamante</a>
+            Fabricio Bustamante
           </h2>
         </div>
         <nav>
@@ -32,7 +33,7 @@ const Nav = (props) => {
                   className={`col ${currentSection.name === section.name && 'navActive'}`} key={section.name}
                   onClick={() => { setCurrentSection(section)}}
                 >
-                  {section.name}
+                  <Link to={`${section.name}`}>{section.name}</Link>
                 </div>
               ))}
             </div>
