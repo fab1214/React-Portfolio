@@ -11,9 +11,9 @@ import './index.css';
 
 function App() {
   const [sections] = useState([
-      {
-        name: "About"
-      },
+      // {
+      //   name: "About"
+      // },
       {
         name: "Contact",
       },
@@ -36,7 +36,7 @@ function App() {
       setCurrentSection={setCurrentSection} />
       <main>
         <div className="container">
-          <Route exact path='/About' component={About} />
+          <Route exact path='/' component={About} />
           <Route exact path='/Contact' component={Contact} />
           <Route exact path='/Portfolio' component={Portfolio} />
           <Route exact path='/Resume' component={Resume} />

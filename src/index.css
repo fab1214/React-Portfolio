@@ -12,11 +12,12 @@ code {
     monospace;
 }
 
-nav:hover {
+a:hover {
   cursor: pointer;
+  color: red;
 }
 
 
 .navActive {
-  color: blue;
+  color: yellow;
 }

@@ -23,17 +23,17 @@ const Nav = (props) => {
         </div>
         <nav>
             <div className="row">
-              {/* <div className="col">
-                <a href="#About">
-                  <span className='selected' onClick={() => sectionSelected("About")}>About</span>
-                </a>
-              </div> */}
+              <div className="col">
+                <Link to="/">
+                  <span className=''>About</span>
+                </Link>
+              </div>
               {sections.map((section) => (
                 <div
                   className={`col ${currentSection.name === section.name && 'navActive'}`} key={section.name}
                   onClick={() => { setCurrentSection(section)}}
                 >
-                  <Link to={`${section.name}`}>{section.name}</Link>
+                  <Link to={`/${section.name}`}>{section.name}</Link>
                 </div>
               ))}
             </div>
