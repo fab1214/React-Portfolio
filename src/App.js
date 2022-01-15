@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {BrowserRouter, Route} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './components/Nav';
+import Home from './components/Home';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
@@ -11,9 +12,9 @@ import './index.css';
 
 function App() {
   const [sections] = useState([
-      // {
-      //   name: "About"
-      // },
+      {
+        name: "About",
+      },
       {
         name: "Contact",
       },
@@ -36,12 +37,11 @@ function App() {
       setCurrentSection={setCurrentSection} />
       <main>
         <div className="container">
-          <Route exact path='/' component={About} />
+          <Route exact path='/' component={Home} />
+          <Route exact path='/About' component={About} />
           <Route exact path='/Contact' component={Contact} />
           <Route exact path='/Portfolio' component={Portfolio} />
           <Route exact path='/Resume' component={Resume} />
-
-          {/* <Route component={About} /> */}
         </div>
       <Footer />
       </main>

@@ -37,30 +37,35 @@ const Contact = () => {
 
   return (
     <section>
-      <h1>Contact Me</h1>
+    <div className="form">
       <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
+        <div className="form-group">
           <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange}></input>
+          <input type="text" className="form-control" name="name" defaultValue={name} onBlur={handleChange}></input>
         </div>
-        <div>
+
+        <div className="form-group">
           <label htmlFor="email">Email:</label>
-          <input type="text" name="email" defaultValue={email} onBlur={handleChange}></input>
+          <input type="text" className="form-control" name="email" defaultValue={email} onBlur={handleChange}></input>
         </div>
-        <div>
+
+        <div className="form-group">
           <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="4" defaultValue={message} onBlur={handleChange}></textarea>
+          <textarea name="message" className="form-control" rows="4" defaultValue={message} onBlur={handleChange}></textarea>
         </div>
+
         {/*conditionally render errorMessage div*/}
         {errorMessage && (
             <div>
                 <p>{errorMessage}</p>
             </div>
         )}
-        <button type="submit" className="btn btn-light">
+        <button type="submit" className="form-control btn-dark">
           Submit
         </button>
+
       </form>
+    </div>
     </section>
   );
 };

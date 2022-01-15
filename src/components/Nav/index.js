@@ -17,17 +17,14 @@ const Nav = (props) => {
     <header>
       <div className="container">
         <div className="row">
+          <Link to='/'>
           <h2>
             Fabricio Bustamante
           </h2>
+          </Link>
         </div>
         <nav>
             <div className="row">
-              <div className="col">
-                <Link to="/">
-                  <span className=''>About</span>
-                </Link>
-              </div>
               {sections.map((section) => (
                 <div
                   className={`col ${currentSection.name === section.name && 'navActive'}`} key={section.name}
