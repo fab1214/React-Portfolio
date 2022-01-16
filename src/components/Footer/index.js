@@ -3,9 +3,9 @@ import React from "react";
 const Footer = () => {
   return (
     <footer>
-      <div className="container">
+      <div className="footer-icon container">
         <div className="row justify-content-center">
-          <div className="col-2">
+          <div className="col-4">
             <a href="https://github.com/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -19,7 +19,7 @@ const Footer = () => {
             </svg>
             </a>
           </div>
-          <div className="col-2">
+          <div className="col-4">
             <a href="https://twitter.com/__fabriciob">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ const Footer = () => {
             </svg>
             </a>
           </div>
-          <div className="col-2">
+          <div className="col-4">
             <a href="https://www.linkedin.com/in/fabricio-bustamante-03ab8815a">
             <svg
               xmlns="http://www.w3.org/2000/svg"

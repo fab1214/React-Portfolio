@@ -1,11 +1,18 @@
 import React from "react";
 import ProjectList from '../Projects';
+import Typed from 'react-typed';
 
 const Portfolio = () => {
 
   return (
     <section>
-      <h1>My Projects</h1>
+          <div className="typed-text">
+          <Typed strings={['My Projects']}
+          typeSpeed={70}
+          backSpeed={60}
+          loop
+          ></Typed>
+        </div>
     <ProjectList />
     </section>
   );

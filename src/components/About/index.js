@@ -6,7 +6,7 @@ import photo from '../../assets/myself.jpeg';
 const About = () => {
   return (
     <section>
-    <div className="container">
+    <div className="about-me container">
 
       <div className="row justify-content-space-between">
 
