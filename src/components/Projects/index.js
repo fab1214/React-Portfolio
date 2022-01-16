@@ -8,37 +8,43 @@ const ProjectList = () => {
           name: "Myspace 2",
           url: "https://secure-falls-17879.herokuapp.com/login",
           alt: 'myspace 2 app',
-          repo: "https://github.com/fab1214/MySpace-2"
+          repo: "https://github.com/fab1214/MySpace-2",
+          photo: "../../assets/project-thumbnail/myspace-2.png"
         },
         {
           name: "The Huddle",
           url: "https://markgranade.github.io/the-huddle/",
           alt: 'the huddle app',
-          repo: "https://github.com/MarkGranade/the-huddle"
+          repo: "https://github.com/MarkGranade/the-huddle",
+          photo: "../../assets/project-thumbnail/myspace-2.png"
         },
         {
           name: "Run Buddy",
           url: "https://fab1214.github.io/run-buddy-/",
           alt: 'run buddy app',
-          repo: "https://github.com/fab1214/run-buddy-"
+          repo: "https://github.com/fab1214/run-buddy-",
+          photo: "../../assets/project-thumbnail/myspace-2.png"
         },
         {
           name: "Budget Tracker",
           url: "https://stormy-stream-94592.herokuapp.com/",
           app: 'budget tracker app',
-          repo: "https://github.com/fab1214/Budget-Tracker"
+          repo: "https://github.com/fab1214/Budget-Tracker",
+          photo: "../../assets/project-thumbnail/myspace-2.png"
         },
         {
           name: "Pizza Hunt",
           url: "https://mighty-retreat-87057.herokuapp.com/",
           alt: 'pizza app',
-          repo: "https://github.com/fab1214/pizza-hunt"
+          repo: "https://github.com/fab1214/pizza-hunt",
+          photo: "../../assets/project-thumbnail/myspace-2.png"
         },
         {
           name: "Tech Blog",
           url: "https://aqueous-tundra-44491.herokuapp.com/",
           alt: 'tech blog',
-          repo: "https://github.com/fab1214/MVC-Tech-Blog"
+          repo: "https://github.com/fab1214/MVC-Tech-Blog",
+          photo: "../../assets/project-thumbnail/myspace-2.png"
         }
         ];      
 

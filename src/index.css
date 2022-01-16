@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html, main {
     background-image: linear-gradient(
         0deg,
@@ -81,4 +87,20 @@ header {
 nav {
   margin: 12px 0;
   padding: 5px;
+}
+
+.typed-text {
+  font-size: 2em;
+  font-weight: bold;
+  padding: 1em 0 1em 0;
+}
+
+footer {
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  border-top: 2px solid rgba( 255, 255, 255, 0.4);
+  background-color: rgba( 255, 255, 255, 0.4);
+  position: fixed;
+  bottom: 0;
 }
