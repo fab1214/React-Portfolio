@@ -104,3 +104,16 @@ footer {
   position: fixed;
   bottom: 0;
 }
+
+.container {
+  margin-right: 0 !important;
+}
+
+.about-me {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+img {
+  padding-top: 13px;
+}
