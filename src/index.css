@@ -95,9 +95,11 @@ a {
 }
 
 footer {
-  padding: 30px;
-  background-color: rgba( 255, 255, 255, 0.4);
+  position: relative;
+  right: 0;
   bottom: 0;
+  left: 0;
+  z-index: 1030;
   text-align: center;
 }
 
@@ -114,11 +116,11 @@ svg {
 .about-me {
   font-size: 18px;
   font-weight: normal;
-  padding: 3% 0 5% 0;
+  padding: 3% 0 8% 0;
 }
 
 .form {
-  padding: 5% 0 16% 0;
+  padding: 0 0 16% 0;
 }
 
 .text-block {
@@ -135,7 +137,18 @@ svg {
   width: 50%;
 }
 
-
 .footer-icon svg {
   color: black !important;
+}
+
+.footer-icon svg:hover {
+  color: silver !important;
+}
+
+.resume {
+  padding: 0 0 5% 0;
+}
+
+.download-btn{
+  margin: 1% 0 0 13%
 }

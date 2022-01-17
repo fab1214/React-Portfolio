@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
+import Typed from "react-typed";
 
 const Contact = () => {
   const [formState, setFormState] = useState({
@@ -41,6 +42,15 @@ const Contact = () => {
 
   return (
     <section>
+      <div className="typed-text">
+        <Typed
+          strings={["Contact Me"]}
+          typeSpeed={70}
+          backSpeed={60}
+          loop
+        ></Typed>
+      </div>
+
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-6">
