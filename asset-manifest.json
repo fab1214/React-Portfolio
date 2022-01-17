@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.e09a64b5.css",
+    "main.js": "/react-portfolio/static/js/main.fc3115fd.js",
+    "static/js/787.8c081f57.chunk.js": "/react-portfolio/static/js/787.8c081f57.chunk.js",
+    "static/media/pizza-hunt.png": "/react-portfolio/static/media/pizza-hunt.06ac2addff65f2137ff7.png",
+    "static/media/myself.jpeg": "/react-portfolio/static/media/myself.2ff824095511e63ada61.jpeg",
+    "static/media/run-buddy.png": "/react-portfolio/static/media/run-buddy.9e41d54a2e2c9d247579.png",
+    "static/media/resume.png": "/react-portfolio/static/media/resume.02abf5b042b3fa997cdc.png",
+    "static/media/budget-tracker.png": "/react-portfolio/static/media/budget-tracker.00317f6809f91518ebf5.png",
+    "static/media/myspace-2.png": "/react-portfolio/static/media/myspace-2.570bc951190c0127e03f.png",
+    "static/media/Resume v5.pdf": "/react-portfolio/static/media/Resume v5.ed0d252e00df6aa10761.pdf",
+    "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.3951186bae0f4b1e2a39.png",
+    "static/media/the-huddle.png": "/react-portfolio/static/media/the-huddle.ede2a25c6bff8e34a02d.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.e09a64b5.css.map": "/react-portfolio/static/css/main.e09a64b5.css.map",
+    "main.fc3115fd.js.map": "/react-portfolio/static/js/main.fc3115fd.js.map",
+    "787.8c081f57.chunk.js.map": "/react-portfolio/static/js/787.8c081f57.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e09a64b5.css",
+    "static/js/main.fc3115fd.js"
+  ]
+}
