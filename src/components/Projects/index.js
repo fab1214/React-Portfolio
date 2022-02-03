@@ -44,6 +44,13 @@ const ProjectList = () => {
           alt: 'tech blog',
           repo: "https://github.com/fab1214/MVC-Tech-Blog",
           photo: require("../../assets/project-thumbnail/tech-blog.png")
+        },
+      {
+          name: "goghbuy",
+          url: "https://nameless-fjord-50324.herokuapp.com/",
+          alt: 'goghbuy ecommerce',
+          repo: "https://github.com/fab1214/goghbuy",
+          photo: require("../../assets/project-thumbnail/tech-blog.png")
         }
         ];      
 
