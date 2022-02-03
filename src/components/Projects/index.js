@@ -50,7 +50,7 @@ const ProjectList = () => {
           url: "https://nameless-fjord-50324.herokuapp.com/",
           alt: 'goghbuy ecommerce',
           repo: "https://github.com/fab1214/goghbuy",
-          photo: require("../../assets/project-thumbnail/tech-blog.png")
+          photo: require("../../assets/project-thumbnail/goghbuy.png")
         }
         ];      
 
